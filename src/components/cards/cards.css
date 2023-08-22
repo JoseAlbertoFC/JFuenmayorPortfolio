@@ -1,0 +1,19 @@
+.cards-list {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.mainImage {
+    margin-left: 7%;
+    width: 200px;
+    height: 255px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: border-color 0.25s;
+}
+
+.mainImage:hover {
+    border-color: #01c38d;
+  }
