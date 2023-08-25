@@ -41,7 +41,7 @@ function Home() {
           Thank you for visiting my portfolio. I look forward to the opportunity
           to collaborate and learn from other professionals in this industry.
         </p>
-        <Link to="https://drive.google.com/file/d/1Q3KTqZzFPIAZiEiIVlHfm1QILzT7J7xs/view?usp=drive_link">
+        <Link to="https://drive.google.com/file/d/1Q3KTqZzFPIAZiEiIVlHfm1QILzT7J7xs/view?usp=drive_link" target="_blank">
         <button>Download CV</button>
         </Link>
       </div>
