@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import gmail from "../../icons/gmail.png";
 import linkedin from "../../icons/linkedin.png";
+import github from "../../icons/github.png";
 import contactImg from "../../images/contact.gif" 
 import "./contact.css";
 
@@ -74,6 +75,12 @@ function Contact() {
           <button>
             <img className="gmail" src={gmail} alt="Gmail" />
             Gmail
+          </button>
+        </Link>
+        <Link to="https://github.com/JoseAlbertoFC" target="_blank">
+          <button>
+            <img className="github" src={github} alt="Gmail" />
+            GitHub
           </button>
         </Link>
       </div>
